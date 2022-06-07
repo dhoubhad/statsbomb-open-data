@@ -1,0 +1,16 @@
+name: statsbomb-conda-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - pre-commit
+    - flake8
+    - ipykernel
+    - jupyterlab
+    - python-dotenv
+    - numpy
+    - pandas
+    - scikit-learn
